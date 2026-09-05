@@ -15,10 +15,7 @@ A simple, fully functional to-do list app built with vanilla HTML, CSS, and Java
 - localStorage API
 
 ## Live Demo
-[View it live here](add your GitHub Pages link here)
-
-## Screenshot
-(add a screenshot here if you'd like)
+[View it live here](http://to-do-list-yoyo.com/)
 
 ---
 🇪🇬 [النسخة العربية](README.ar.md)
