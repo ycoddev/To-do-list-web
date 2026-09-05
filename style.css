@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #001233;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  overflow: hidden;
+}
+
+.center {
+  height: 500px;
+  width: 400px;
+  background: #7d8597;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: #979dac solid 4px;
+}
+
+#task {
+  border-radius: 10px;
+  height: 30px;
+  padding: 5px;
+  border: #001233 4px solid;
+}
+
+.add,
+.list {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add {
+  border-bottom: #000 solid 3px;
+}
+
+.list {
+  height: 70%;
+  align-items: normal;
+  padding-top: 5px;
+}
+
+ul {
+  width: 100%;
+  padding: 10px;
+}
+
+li {
+  margin-bottom: 5px;
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  margin-left: 10px;
+  border-radius: 15px;
+  color: #d1d1d3;
+  cursor: pointer;
+  border: none;
+  height: 30px;
+  width: 50px;
+}
+
+#btn {
+  background: #001845;
+  transition: 0.1s linear;
+  width: 30px;
+  font-size: 18px;
+}
+
+#btn:hover {
+  transform: scale(1.1);
+}
+
+.remove-btn {
+  background-color: darkred;
+  font-size: 16px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
